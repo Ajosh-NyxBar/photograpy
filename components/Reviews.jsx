@@ -58,7 +58,7 @@ const Reviews = () => {
     <section className="mb-12 xl:mb-32">
       <div className="container mx-auto">
         <p className="section-title mb-12 text-center mx-auto text-lg">
-          They Say About Our Work
+          They Say
         </p>
 
         {/* SWIPER */}
