@@ -5,7 +5,6 @@ import NewsLetter from "@/components/NewsLetter";
 import Paq from "@/components/Paq";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
-import Image from "next/image";
 
 export default function Home() {
   return (
