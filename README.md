@@ -11,6 +11,27 @@ Ajosh Photography adalah aplikasi web yang dirancang untuk fotografer profesiona
 - **Kustomisasi Penuh**: Menawarkan solusi yang sepenuhnya dapat disesuaikan untuk memenuhi kebutuhan unik dan preferensi Anda.
 - **Plugin Gratis**: Menyediakan plugin gratis yang mudah digunakan untuk meningkatkan fungsionalitas dan kinerja situs web Anda.
 
+## Teknologi yang Digunakan
+
+Proyek ini menggunakan berbagai teknologi dan pustaka untuk membangun aplikasi yang kaya fitur dan responsif. Berikut adalah daftar lengkap teknologi yang digunakan:
+
+- **Next.js**: Framework React untuk pengembangan aplikasi web.
+- **React**: Pustaka JavaScript untuk membangun antarmuka pengguna.
+- **Tailwind CSS**: Framework CSS untuk desain yang responsif dan dapat disesuaikan.
+- **Framer Motion**: Pustaka untuk animasi di React.
+- **React Hook Form**: Pustaka untuk mengelola form di React.
+- **Zod**: Pustaka untuk validasi skema.
+- **React Icons**: Kumpulan ikon untuk React.
+- **Swiper**: Pustaka untuk membuat slider dan carousel.
+- **Radix UI**: Kumpulan komponen UI yang dapat diakses.
+- **Heroicons**: Kumpulan ikon untuk React.
+- **Lucide React**: Ikon untuk React.
+- **Next Themes**: Pustaka untuk mengelola tema di Next.js.
+- **Class Variance Authority**: Pustaka untuk mengelola varian kelas.
+- **Clsx**: Pustaka untuk mengelola kelas kondisional.
+- **PostCSS**: Alat untuk mengubah CSS dengan plugin.
+- **Tailwind CSS Animate**: Plugin untuk animasi di Tailwind CSS.
+
 ## Memulai
 
 Untuk memulai proyek ini, ikuti langkah-langkah berikut:
@@ -41,6 +62,10 @@ bun dev
 ```
 
 4. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+Anda dapat mulai mengedit halaman dengan memodifikasi `app/page.js`. Halaman akan diperbarui secara otomatis saat Anda mengedit file.
+
+Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) untuk mengoptimalkan dan memuat Inter, font kustom dari Google.
 
 ## Struktur Proyek
 
