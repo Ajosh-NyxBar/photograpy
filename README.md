@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ajosh Photography
 
-## Getting Started
+Selamat datang di proyek Ajosh Photography, sebuah aplikasi web yang dibangun menggunakan [Next.js](https://nextjs.org/) dan di-bootstrapped dengan [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+## Tentang Aplikasi
+
+Ajosh Photography adalah aplikasi web yang dirancang untuk fotografer profesional dan penggemar fotografi. Aplikasi ini memungkinkan pengguna untuk menampilkan portofolio mereka, menawarkan layanan fotografi, dan berinteraksi dengan klien potensial. Beberapa fitur utama dari aplikasi ini meliputi:
+
+- **Fotografi Profesional**: Menangkap momen indah dengan keahlian fotografi profesional, menghasilkan gambar yang memukau dan penuh kenangan.
+- **Portofolio Menarik**: Menyusun portofolio yang menarik dan profesional untuk menampilkan karya terbaik Anda kepada dunia.
+- **Kustomisasi Penuh**: Menawarkan solusi yang sepenuhnya dapat disesuaikan untuk memenuhi kebutuhan unik dan preferensi Anda.
+- **Plugin Gratis**: Menyediakan plugin gratis yang mudah digunakan untuk meningkatkan fungsionalitas dan kinerja situs web Anda.
+
+## Memulai
+
+Untuk memulai proyek ini, ikuti langkah-langkah berikut:
+
+1. Clone repositori ini ke mesin lokal Anda.
+2. Instal dependensi dengan menjalankan salah satu perintah berikut di terminal:
+
+```bash
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+# atau
+bun install
+```
+
+3. Jalankan server pengembangan dengan salah satu perintah berikut:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
+# atau
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Struktur Proyek
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Proyek ini memiliki struktur direktori sebagai berikut:
 
-## Learn More
+- `app/`: Berisi halaman dan komponen utama aplikasi.
+- `components/`: Berisi komponen UI yang dapat digunakan kembali.
+- `public/`: Berisi aset publik seperti gambar dan ikon.
+- `styles/`: Berisi file CSS global dan konfigurasi Tailwind CSS.
+- `next.config.mjs`: Konfigurasi untuk Next.js.
+- `package.json`: Berisi informasi proyek dan daftar dependensi.
 
-To learn more about Next.js, take a look at the following resources:
+## Pelajari Lebih Lanjut
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Untuk mempelajari lebih lanjut tentang Next.js dan fitur-fiturnya, lihat sumber daya berikut:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Dokumentasi Next.js](https://nextjs.org/docs) - Pelajari tentang fitur dan API Next.js.
+- [Belajar Next.js](https://nextjs.org/learn) - Tutorial interaktif Next.js.
 
-## Deploy on Vercel
+Anda juga dapat melihat [repositori GitHub Next.js](https://github.com/vercel/next.js/) untuk memberikan umpan balik dan kontribusi.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy di Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Cara termudah untuk mendistribusikan aplikasi Next.js Anda adalah dengan menggunakan [Platform Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dari pembuat Next.js.
+
+Lihat [dokumentasi distribusi Next.js](https://nextjs.org/docs/deployment) untuk lebih jelasnya.
+
+## Kontribusi
+
+Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini dan buat pull request dengan perubahan Anda.

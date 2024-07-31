@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const navLink = [
   { path: "/", title: "Home" },
   { path: "/about", title: "About" },
-  { path: "/services", title: "Services" },
+  { path: "/pricing", title: "Pricing" },
   { path: "/portfolio", title: "Portfolio" },
   { path: "/contact", title: "Contact" },
 ];

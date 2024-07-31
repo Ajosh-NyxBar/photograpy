@@ -1,5 +1,10 @@
 import React from "react";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "./ui/accordion";
 
 const Paq = () => {
   return (
@@ -7,7 +12,7 @@ const Paq = () => {
       <div className="container mx-auto">
         <div className="w-full pt-12 mb-6 xl:mb-24">
           <h2 className="section-title mb-12 text-center mx-auto">
-            Our Studio
+            FAQ
           </h2>
           <div>
             {/* ACORDION */}
