@@ -1,4 +1,8 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import { ToastAction } from "@/components/ui/toast";
+import { toast, useToast } from "@/components/ui/use-toast";
 import { CheckIcon } from "lucide-react";
 import React from "react";
 
@@ -9,6 +13,7 @@ const inc = [
   "Plugin Gratis",
 ];
 const Services = () => {
+  const { toast } = useToast();
   return (
     <section className="min-h-screen pt-12">
       <div className="container mx-auto">
@@ -57,7 +62,11 @@ const Services = () => {
             >
               {inc.map((item, index) => (
                 <li key={index} className="flex text-muted-foreground gap-x-3">
-                  <CheckIcon className="h-6 w-5 flex-none text-primary" aria-hidden="true" /> {item}
+                  <CheckIcon
+                    className="h-6 w-5 flex-none text-primary"
+                    aria-hidden="true"
+                  />{" "}
+                  {item}
                 </li>
               ))}
             </ul>
@@ -66,15 +75,34 @@ const Services = () => {
           {/* RIGHT */}
           <div className="-mt-4 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
             <div className="h-full bg-tertiary py-10 rounded-2xl text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-              <div className="mx-auto max-w-xs px-8">
-                <p className="text-base font-semibold">Pay once, own it forever</p>
+              <div className="mx-auto max-w-xs px-8 dark:text-black">
+                <p className="text-base font-semibold">
+                  Pay once, own it forever
+                </p>
                 <p className="mt-6 flex items-baseline justify-center gap-x-2">
                   <span className="text-5xl font-bold tracking-tight">Rp.</span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide">199.000</span>
-                  <span className="text-sm font-semibold leading-6 tracking-wide">,00</span>
+                  <span className="text-sm font-semibold leading-6 tracking-wide">
+                    199.000
+                  </span>
+                  <span className="text-sm font-semibold leading-6 tracking-wide">
+                    ,00
+                  </span>
                 </p>
 
-                <Button className="gap-x-2 mt-3">
+                <Button
+                  className="gap-x-2 mt-3"
+                  onClick={() => {
+                    toast({
+                      title: "Pembelian Berhasil",
+                      description: "Pembelian berhasil dilakukan",
+                      action: (
+                        <ToastAction altText="Goto schedule">
+                          Go to schedule
+                        </ToastAction>
+                      ),
+                    });
+                  }}
+                >
                   Purchase
                 </Button>
                 <p className="text-sm text-muted-foreground mt-6 leading-5">
