@@ -51,7 +51,7 @@ const About = () => {
           <div className="relative flex-1 xl:flex">
             <Fade direction="left" triggerOnce>
               <HeroImage
-                containerStyles="w-[450px] h-[450px] lg:w-[505px] lg:h-[505px] bg-no-repeat relative"
+                containerStyles="w-[350px] h-[350px] lg:w-[505px] lg:h-[505px] bg-no-repeat relative"
                 imgSrc="/about/profile.png"
               />
             </Fade>

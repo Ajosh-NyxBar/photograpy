@@ -17,8 +17,8 @@ import { Fade } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[auto] bg-bottom">
-      <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+      <div className="container mx-auto text-center xl:text-left">
+        <div className="flex flex-col justify-center items-center gap-x-8 xl:flex-row">
           {/* Left side */}
           <div className="flex max-w-[800px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <Fade
@@ -127,7 +127,7 @@ const Hero = () => {
                 triggerOnce={true}
               >
                 {/* B1 */}
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <div className="mx-auto flex max-w-xs flex-col gap-y-4 items-center">
                   <dt className="text-base leading-7 text-muted-foreground">
                     Years of Experience
                   </dt>
@@ -141,7 +141,7 @@ const Hero = () => {
                   </dd>
                 </div>
                 {/* B2 */}
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <div className="mx-auto flex max-w-xs flex-col gap-y-4 items-center">
                   <dt className="text-base leading-7 text-muted-foreground">
                     Project Work
                   </dt>
@@ -155,7 +155,7 @@ const Hero = () => {
                   </dd>
                 </div>
                 {/* B3 */}
-                <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <div className="mx-auto flex max-w-xs flex-col gap-y-4 items-center">
                   <dt className="text-base leading-7 text-muted-foreground">
                     Followers
                   </dt>
