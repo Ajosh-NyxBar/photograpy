@@ -2,6 +2,7 @@
 import ProjCard from "@/components/ProjCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import React, { useState } from "react";
+import { Fade } from "react-awesome-reveal";
 
 const projecyData = [
   {
@@ -100,18 +101,40 @@ const Portofolio = () => {
 
           <TabsContent value="all project">
             <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-12">
-              {filter.map((project, index) => (
-                <ProjCard project={project} key={index} />
-              ))}
+              {filter.map((project, index) => {
+                let direction = "left";
+                if (index % 3 === 1) {
+                  direction = "up";
+                } else if (index % 3 === 2) {
+                  direction = "right";
+                }
+
+                return (
+                  <Fade key={index} delay={index * 100} triggerOnce={true} direction={direction}>
+                    <ProjCard project={project} />
+                  </Fade>
+                );
+              })}
             </div>
           </TabsContent>
 
           {unique.slice(1).map((category, index) => (
             <TabsContent value={category} key={index}>
               <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-12">
-                {filter.map((project, index) => (
-                  <ProjCard project={project} key={index} />
-                ))}
+                {filter.map((project, index) => {
+                  let direction = "left";
+                  if (index % 3 === 1) {
+                    direction = "up";
+                  } else if (index % 3 === 2) {
+                    direction = "right";
+                  }
+
+                  return (
+                    <Fade key={index} delay={index * 100} triggerOnce={true} direction={direction}>
+                      <ProjCard project={project} />
+                    </Fade>
+                  );
+                })}
               </div>
             </TabsContent>
           ))}
