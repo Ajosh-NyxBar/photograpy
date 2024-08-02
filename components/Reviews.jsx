@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Fade } from "react-awesome-reveal";
 
 const dataRev = [
   {
@@ -82,29 +83,31 @@ const Reviews = () => {
           {dataRev.map((item, index) => {
             return (
               <SwiperSlide key={index}>
-               <Card className="min-h-[300px] border border-primary rounded-xl dark:border-gray-200">
-                <CardHeader className="">
-                    <div className="flex flex-col items-start g-x-4">
+                <Fade direction="up" triggerOnce>
+                  <Card className="min-h-[300px] border border-primary rounded-xl dark:border-gray-200">
+                    <CardHeader className="">
+                      <div className="flex flex-col items-start g-x-4">
                         {/* AVATAR */}
                         <Image 
-                        src={item.ava}
-                        alt={item.name}
-                        width={70}
-                        height={70}
-                        priority
-                        className="rounded-full"
+                          src={item.ava}
+                          alt={item.name}
+                          width={70}
+                          height={70}
+                          priority
+                          className="rounded-full"
                         />
                         {/* NAME */}
                         <div className="mt-4">
-                            <CardTitle className="text-lg">{item.name}</CardTitle>
-                            <CardDescription className="text-sm text-gray-500">{item.job}</CardDescription>
+                          <CardTitle className="text-lg">{item.name}</CardTitle>
+                          <CardDescription className="text-sm text-gray-500">{item.job}</CardDescription>
                         </div>
-                    </div>
-                </CardHeader>
-                <CardContent>
-                    <CardDescription className=" text-muted-foreground">{item.review}</CardDescription>
-                </CardContent>
-               </Card>
+                      </div>
+                    </CardHeader>
+                    <CardContent>
+                      <CardDescription className=" text-muted-foreground">{item.review}</CardDescription>
+                    </CardContent>
+                  </Card>
+                </Fade>
               </SwiperSlide>
             );
           })}

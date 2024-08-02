@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import ProjCard from "./ProjCard";
+import { Fade } from "react-awesome-reveal";
 
 const projecyData = [
   {
@@ -67,9 +69,18 @@ const Gallery = () => {
             <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">My Gallery</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {
-                    projecyData.map((project) => {
+                    projecyData.map((project, index) => {
+                        let direction = "left";
+                        if (index % 3 === 1) {
+                            direction = "up";
+                        } else if (index % 3 === 2) {
+                            direction = "right";
+                        }
+
                         return(
-                            <ProjCard project={project} />
+                            <Fade key={index} delay={index * 100} triggerOnce={true} direction={direction}>
+                                <ProjCard project={project} />
+                            </Fade>
                         )
                     })
                 }
