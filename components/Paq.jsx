@@ -22,40 +22,31 @@ const Paq = () => {
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
                   <AccordionTrigger>
-                    <div className="ms-3">01. What is your name?</div>
+                    <div className="ms-3">01. Apa nama Anda?</div>
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="ms-3">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Asperiores esse quo inventore assumenda incidunt non cum
-                      voluptatibus doloribus quas aspernatur vitae eius saepe
-                      voluptate, sit modi, totam facere. Qui, corrupti.
+                      Nama saya adalah John Doe.
                     </div>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
                   <AccordionTrigger>
-                    <div className="ms-3">01. What is your name?</div>
+                    <div className="ms-3">02. Apa pekerjaan Anda?</div>
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="ms-3">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Asperiores esse quo inventore assumenda incidunt non cum
-                      voluptatibus doloribus quas aspernatur vitae eius saepe
-                      voluptate, sit modi, totam facere. Qui, corrupti.
+                      Saya adalah seorang fotografer profesional.
                     </div>
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
                   <AccordionTrigger>
-                    <div className="ms-3">01. What is your name?</div>
+                    <div className="ms-3">03. Di mana Anda tinggal?</div>
                   </AccordionTrigger>
                   <AccordionContent>
                     <div className="ms-3">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Asperiores esse quo inventore assumenda incidunt non cum
-                      voluptatibus doloribus quas aspernatur vitae eius saepe
-                      voluptate, sit modi, totam facere. Qui, corrupti.
+                      Saya tinggal di Jakarta, Indonesia.
                     </div>
                   </AccordionContent>
                 </AccordionItem>

@@ -1,4 +1,3 @@
-
 "use client"
 import React from "react";
 import { Input } from "./ui/input";
@@ -53,8 +52,8 @@ const NewsLetter = () => {
                   <div>
                     <dt className="mt-4 font-semibold">Weekly Articles</dt>
                     <dd className="mt-2 text-sm text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Impedit distinctio incidunt, id officiis.
+                      Kami menyediakan artikel mingguan yang menarik dan informatif
+                      untuk membantu Anda tetap terinspirasi dan termotivasi.
                     </dd>
                   </div>
                 </div>
@@ -65,8 +64,8 @@ const NewsLetter = () => {
                   <div>
                     <dt className="mt-4 font-semibold">Weekly Articles</dt>
                     <dd className="mt-2 text-sm text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Impedit distinctio incidunt, id officiis.
+                      Dapatkan tips dan trik terbaru dari para ahli di bidangnya
+                      langsung ke kotak masuk email Anda setiap minggu.
                     </dd>
                   </div>
                 </div>

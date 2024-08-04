@@ -15,19 +15,19 @@ const Data = [
     icon: <Smile size={48} strokeWidth={1} />,
     title: "Portraiture",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi voluptate corporis id assumenda voluptas repudiandae sapiente cupiditate, vel impedit!",
+      "Menangkap momen indah dengan keahlian fotografi potret profesional.",
   },
   {
     icon: <Scan size={48} strokeWidth={1} />,
     title: "Landscape",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi voluptate corporis id assumenda voluptas repudiandae sapiente cupiditate, vel impedit!",
+      "Fotografi lanskap yang menampilkan keindahan alam dan pemandangan.",
   },
   {
     icon: <Bird size={48} strokeWidth={1} />,
     title: "Lifestyle",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi voluptate corporis id assumenda voluptas repudiandae sapiente cupiditate, vel impedit!",
+      "Fotografi gaya hidup yang menangkap momen sehari-hari dengan estetika.",
   },
 ];
 

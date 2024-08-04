@@ -44,7 +44,7 @@ const About = () => {
       <div className="container mx-auto">
         <Fade direction="up" triggerOnce>
           <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
-            About Me
+            Tentang Kami
           </h2>
         </Fade>
         <div className="flex flex-col xl:flex-row">
@@ -65,16 +65,15 @@ const About = () => {
                 </Fade>
                 <Fade direction="up" triggerOnce delay={200}>
                   <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Aliquam commodi exercitationem, rerum perspiciatis labore vero
-                    amet provident, voluptatem, accusantium tempora nemo vitae?
-                    Fugit ut enim, velit obcaecati voluptas qui quas?
+                    Kami adalah tim profesional yang berdedikasi untuk memberikan layanan terbaik. 
+                    Dengan pengalaman bertahun-tahun, kami siap membantu Anda mencapai tujuan Anda 
+                    dengan solusi yang inovatif dan efektif.
                   </p>
                 </Fade>
                 <Fade direction="up" triggerOnce delay={400}>
                   <p className="subtitle max-w-lg mx-auto xl:mx-0">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-                    suscipit soluta nihil amet molestias tempore?
+                    Kami percaya pada kualitas dan kepuasan pelanggan. 
+                    Hubungi kami untuk informasi lebih lanjut.
                   </p>
                 </Fade>
 

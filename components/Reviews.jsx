@@ -15,42 +15,42 @@ const dataRev = [
     name: "Jeni",
     job: "Chief",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Pelayanan yang sangat memuaskan dan hasil foto yang luar biasa. Saya sangat merekomendasikan!",
   },
   {
     ava: "/reviews/avatar-2.png",
-    name: "Jeni",
-    job: "Chief",
+    name: "Budi",
+    job: "Manager",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Fotografer yang sangat profesional dan hasil yang sangat memuaskan. Terima kasih banyak!",
   },
   {
     ava: "/reviews/avatar-3.png",
-    name: "Jeni",
-    job: "Chief",
+    name: "Siti",
+    job: "Designer",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Pengalaman yang sangat menyenangkan dan hasil foto yang sangat bagus. Sangat direkomendasikan!",
   },
   {
     ava: "/reviews/avatar-4.png",
-    name: "Jeni",
-    job: "Chief",
+    name: "Andi",
+    job: "Developer",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Hasil foto yang sangat memuaskan dan pelayanan yang sangat ramah. Terima kasih!",
   },
   {
     ava: "/reviews/avatar-5.png",
-    name: "Jeni",
-    job: "Chief",
+    name: "Rina",
+    job: "Artist",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Fotografer yang sangat berbakat dan hasil yang sangat memuaskan. Saya sangat senang!",
   },
   {
     ava: "/reviews/avatar-6.png",
-    name: "Jeni",
-    job: "Chief",
+    name: "Dewi",
+    job: "Chef",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique suscipit deserunt voluptates, illo tempore rerum quidem nihil impedit nesciunt vero dolores sunt minima! Provident, corrupti molestiae velit praesentium explicabo numquam.",
+      "Pelayanan yang sangat baik dan hasil foto yang sangat memuaskan. Terima kasih banyak!",
   },
 ];
 
@@ -59,7 +59,7 @@ const Reviews = () => {
     <section className="mb-12 xl:mb-32">
       <div className="container mx-auto">
         <p className="section-title mb-12 text-center mx-auto text-lg">
-          They Say
+          Mereka Berkata
         </p>
 
         {/* SWIPER */}

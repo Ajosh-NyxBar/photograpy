@@ -41,7 +41,7 @@ const Features = () => {
     <section className="pb-12 xl:py-24">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-3 text-center mx-auto">
-          Key Features
+          Fitur Utama
         </h2>
         <div className="flex flex-col">
           <div className="mx-auto max-w-7xl text-center">
@@ -50,16 +50,12 @@ const Features = () => {
                 className="mt-2 text-3xl font-bold tracking-tight text-black dark:text-white
               sm:text-4xl"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                quos.
+                Menampilkan fitur-fitur utama yang membuat layanan kami unggul.
               </p>
             </Fade>
             <Fade direction="up" triggerOnce delay={200}>
               <p className="mt-6 text-lg leading-8 text-black dark:text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                blanditiis accusamus fuga sunt corporis, maxime asperiores magni
-                similique veritatis nesciunt assumenda, dolores nam reiciendis
-                fugiat incidunt! Dolorum deleniti soluta sint?
+                Kami menawarkan berbagai fitur yang dirancang untuk memenuhi kebutuhan Anda, mulai dari fotografi profesional hingga plugin gratis yang meningkatkan kinerja situs web Anda.
               </p>
             </Fade>
           </div>

@@ -49,10 +49,10 @@ const Hero = () => {
               triggerOnce={true}
             >
               <p className="subtitle max-w-[590px] mt-4 mx-auto xl:mx-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                nostrum laudantium laboriosam est autem assumenda. Alias
-                sapiente distinctio quidem quae numquam delectus deleniti
-                perferendis temporibus molestias fugit iure, iste inventore.
+                Ajosh Photography adalah tempat di mana keajaiban fotografi
+                terjadi. Kami mengabadikan momen-momen indah dengan keahlian dan
+                dedikasi, menciptakan kenangan yang tak terlupakan. Bergabunglah
+                dengan kami dan rasakan pengalaman fotografi yang luar biasa.
               </p>
             </Fade>
 

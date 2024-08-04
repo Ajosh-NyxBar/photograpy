@@ -17,10 +17,9 @@ const Contact = () => {
               </div>
               <h1 className="h1 max-w-md mb-8">Lets Work Together</h1>
               <p className="subtitle max-w-[400px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloremque necessitatibus, perspiciatis facere quia quam adipisci
-                fuga nesciunt dolorum atque fugiat impedit, nostrum voluptatum?
-                Laboriosam aliquam, ab odit eius maxime illo?
+                Kami adalah tim profesional yang berdedikasi untuk memberikan layanan terbaik. 
+                Dengan pengalaman bertahun-tahun, kami siap membantu Anda mencapai tujuan Anda 
+                dengan solusi yang inovatif dan efektif.
               </p>
             </div>
           </Fade>

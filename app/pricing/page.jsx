@@ -25,13 +25,10 @@ const Services = () => {
 
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Memories Worth Love Cherishing
+              Kenangan yang Layak untuk Dicintai
             </h2>
             <p className="mt-6 text-lg leading-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quia
-              aut nesciunt quae odit unde molestias, reiciendis dolores hic.
-              Eveniet, in officia similique ex sint rem ut vitae? Numquam,
-              obcaecati!
+              Kami menawarkan layanan fotografi profesional yang akan menangkap momen-momen indah Anda. Dengan portofolio yang menarik dan kustomisasi penuh, Anda dapat memiliki kenangan yang abadi.
             </p>
           </div>
         </Fade>
@@ -45,17 +42,14 @@ const Services = () => {
             {/* Left */}
             <div className="p-8 sm:p-10 lg:flex-auto">
               <h3 className="text-2xl font-bold tracking-tight">
-                Life Time Access
+                Akses Seumur Hidup
               </h3>
               <p className="mt-6 text-base leading-7">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, et aut perspiciatis nesciunt minima doloribus.
-                Neque iure quidem amet veritatis ut, perferendis fugit molestiae
-                ex modi eligendi eveniet vero exercitationem!
+                Dapatkan akses seumur hidup ke semua layanan kami dengan satu kali pembayaran. Nikmati hasil fotografi yang memukau dan layanan yang memuaskan.
               </p>
               <div className="mt-10 flex items-center gap-x-4">
                 <h4 className="flex-none text-sm font-semibold leading-6 text-primary">
-                  What's included
+                  Apa yang termasuk
                 </h4>
                 <div className="h-px flex-auto bg-primary"></div>
               </div>
@@ -81,7 +75,7 @@ const Services = () => {
               <div className="h-full bg-tertiary py-10 rounded-2xl text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                 <div className="mx-auto max-w-xs px-8 dark:text-black">
                   <p className="text-base font-semibold">
-                    Pay once, own it forever
+                    Bayar sekali, miliki selamanya
                   </p>
                   <p className="mt-6 flex items-baseline justify-center gap-x-2">
                     <span className="text-5xl font-bold tracking-tight">Rp.</span>
@@ -110,7 +104,7 @@ const Services = () => {
                     Purchase
                   </Button>
                   <p className="text-sm text-muted-foreground mt-6 leading-5">
-                    Invoice will be sent to your email
+                    Faktur akan dikirim ke email Anda
                   </p>
                 </div>
               </div>
