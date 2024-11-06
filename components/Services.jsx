@@ -57,7 +57,7 @@ const Services = () => {
                   <CardHeader className="text-primary">
                     <div
                       className="w-[80px] h-[80px] bg-primary text-white rounded-full flex
-                    justify-center items-center absolute -bottom-6 right-6"
+                    justify-center items-center absolute -z-6 right-6"
                     >
                       {item.icon}
                     </div>
